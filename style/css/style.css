@@ -1,0 +1,132 @@
+  .veden-theme {
+    background-color: #2bbbad !important;
+
+  }
+
+  .cooperators-theme {
+    background-color: #29B6F6 !important;
+  }
+  .scotia-theme {
+    background-color: #d81e05 !important;
+  }
+  .ibm-theme {
+    background-color: #4178be !important;
+  }
+
+  .title-sections {
+    font-size: 20px;
+    margin: auto;
+    padding-top: 3px;
+  }
+
+  .al-section-title {
+    background-color: #82b1ff !important;
+    font-size: 2rem;
+    color:white;
+    font: bold;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -70px;
+    padding-bottom: 70px;
+  }
+
+  main {
+    font-family: Helvetica, sans-serif;
+    color: black;
+    padding: 2em;
+    width: 75%;
+    min-height: 30vh;
+    margin: 0 auto 0 auto; 
+  }
+
+  @keyframes animateOverlay {
+    to {
+      opacity: 1;
+      top: 0;
+  } 
+}
+
+    .overlay span {
+      position: relative;
+      opacity: 0;
+      top: 1em;
+      animation: animateOverlay 1s ease-in-out forwards;
+    }
+
+    .overlay span:nth-child(4n) { animation-delay: 0s; }
+    .overlay span:nth-child(4n+1) { animation-delay: 1s; }
+    .overlay span:nth-child(4n+3) { animation-delay: 2s; }
+    .overlay span:nth-child(4n+2) { animation-delay: 3s; }
+
+
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+
+.main-content {
+  max-width: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #82b1ff !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+
+
+.home-top-nav-collapse {
+  background-color: #82b1ff !important;
+}
+
+.home-navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #82b1ff !important;
+  }
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.veden-theme:not(.top-nav-collapse) {
+  background: #2bbbad !important;
+}
+.cooperators-theme:not(.top-nav-collapse) {
+  background: #29B6F6 !important;
+}
+.scotia-theme:not(.top-nav-collapse) {
+  background: #d81e05 !important;
+}
+.ibm-theme:not(.top-nav-collapse) {
+  background: #4178be !important;
+}
