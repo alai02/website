@@ -2,4 +2,4 @@
 
 Personal page containing information about myself
 
-Google Analytics tracking is present
+Google Analytics
