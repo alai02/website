@@ -1,8 +1,11 @@
-  .veden-theme {
-    background-color: #2bbbad !important;
 
+  html {
+    background-color: #e9f0f5;
   }
 
+.veden-theme {
+    background-color: #2bbbad !important;
+  }
   .cooperators-theme {
     background-color: #29B6F6 !important;
   }
@@ -21,6 +24,8 @@
 
   #main-footer {
     width: 75%;
+    justify-content: center;
+    margin-left: 12%;
   }
 
   .al-section-title {
