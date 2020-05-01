@@ -19,6 +19,10 @@
     padding-top: 3px;
   }
 
+  #main-footer {
+    width: 75%;
+  }
+
   .al-section-title {
     background-color: #82b1ff !important;
     font-size: 2rem;
