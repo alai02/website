@@ -5,10 +5,16 @@ import Link from 'next/link'
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
+  const coopExperiences = [
+    { title: 'The Cooperators', slug: 'cooperators' },
+    { title: 'IBM Watson Health', slug: 'ibm' },
+    { title: 'Scotiabank (2019)', slug: 'scotia' },
+  ]
+
   return (
     <footer className="bg-primary text-white py-12 lg:py-16">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
+        <div className="grid md:grid-cols-5 gap-8 mb-8">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -41,11 +47,23 @@ export default function Footer() {
                   Projects
                 </a>
               </li>
-              <li>
-                <a href="#contact" className="hover:text-white transition-colors">
-                  Contact
-                </a>
-              </li>
+            </ul>
+          </div>
+
+          {/* Co-op Archive */}
+          <div>
+            <h3 className="font-semibold mb-4 text-xs uppercase tracking-wide">Co-op Archive</h3>
+            <ul className="space-y-2 text-xs text-gray-400">
+              {coopExperiences.map((coop) => (
+                <li key={coop.slug}>
+                  <a
+                    href={`/coop/${coop.slug}`}
+                    className="hover:text-white transition-colors"
+                  >
+                    {coop.title}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
