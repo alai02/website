@@ -143,7 +143,7 @@ export default function Experience() {
         {/* Download CV Button */}
         <div className="mt-12 text-center">
           <a
-            href="https://github.com"
+            href="https://github.com/alai02"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary text-primary font-semibold hover:bg-primary/5 transition-colors duration-300"

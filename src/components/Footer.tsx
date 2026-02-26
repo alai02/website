@@ -117,9 +117,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
             <p>© {currentYear} Alex Lai. All rights reserved.</p>
             <p>
-              Designed &amp; built with Next.js and Tailwind CSS,
-              <br className="md:hidden" />
-              inspired by Stripe&apos;s design system.
+              Designed &amp; built with Next.js and Tailwind CSS
             </p>
           </div>
         </div>

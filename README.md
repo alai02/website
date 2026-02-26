@@ -74,7 +74,7 @@ Start the development server:
 npm run dev
 ```
 
-The site will be available at `http://localhost:3000`
+The site will be available at `http://localhost:3000/website`
 
 ### Building
 
