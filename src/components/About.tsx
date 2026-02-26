@@ -11,7 +11,7 @@ export default function About() {
               About me
             </h2>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
-              I&apos;m a Lead Software Engineer specializing in AI-driven application development and distributed systems architecture. With over 8 years of experience spanning enterprise search platforms, AI/ML infrastructure, and cloud-native solutions, I&apos;ve designed and built systems that process millions of records daily for Fortune 500 companies.
+              I&apos;m a Dev specializing in AI-driven application development and distributed systems architecture. With over 8 years of experience spanning enterprise search platforms, AI/ML infrastructure, and cloud-native solutions, I&apos;ve designed and built systems that process millions of records daily for Fortune 500 companies.
             </p>
             <p className="text-lg text-gray-600 mb-4 leading-relaxed">
               Currently at Scotiabank, I lead the development of enterprise AI document-processing platforms leveraging large language models (Gemini, custom models) and modern cloud infrastructure. My expertise spans Python, FastAPI, GCP, Kubernetes, and building production-grade, multi-tenant systems at scale.

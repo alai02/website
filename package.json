@@ -1,7 +1,7 @@
 {
   "name": "alex-portfolio",
   "version": "1.0.0",
-  "description": "Modern portfolio for Alex Lai - Lead Software Engineer",
+  "description": "Alex Lai - Personal Website and Portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",

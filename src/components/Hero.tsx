@@ -19,7 +19,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl lg:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Lead Software Engineer with deep expertise in{' '}
+            Developer with deep expertise in{' '}
             <span className="font-semibold text-primary">AI-driven application development</span>
             {' '}and{' '}
             <span className="font-semibold text-primary">cloud-native engineering</span>

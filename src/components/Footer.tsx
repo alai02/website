@@ -26,7 +26,7 @@ export default function Footer() {
               <span className="font-bold text-lg">Alex Lai</span>
             </div>
             <p className="text-gray-400 text-sm">
-              Lead Software Engineer building the future with code
+              Engineering the future with code
             </p>
           </div>
 

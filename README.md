@@ -4,7 +4,7 @@ A modern portfolio website built with Next.js and TypeScript, showcasing profess
 
 ## Overview
 
-This is a personal portfolio website for Alex Lai, a Lead Software Engineer. The site features a responsive design with detailed documentation of professional work experiences, particularly focusing on co-op work terms and technical projects.
+This is a personal portfolio website myself. The site features a responsive design with detailed documentation of professional work experiences, particularly focusing on co-op work terms and technical projects.
 
 ## Tech Stack
 
